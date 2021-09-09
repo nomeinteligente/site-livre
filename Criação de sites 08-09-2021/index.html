@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    
+    <header>
+        <div id="logo">
+            <img src="./imagens/churrasqueira.png" style="width:10vw; height:12vw" />
+        </div>
+        <div id="Título">
+            <h1>O churrasqueiro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Prêmios"></a>♦ Prêmios</li>
+                <li><a href="Sobre"></a>♦ Sobre</li>
+                <li><a href="Contato"></a>♦ Contato</li>
+            </ul>
+        </nav>
+
+        <div id="icon-menu"><img src="./imagens/menu.png" style="width:10vw; height:12vw"/></a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="Sobre">
+              <img src="Imagens/bruno-diferente.jpg" style="width:15vw; height:20vw; float: left" >
+              <h1>Sobre:</h1>
+                  <p>Nomeado maior churrasqueiro do universo, 
+                    ganhador de 17 prêmios culinários de churrasco, 
+                    Vulgo Érique Jacka, também conhecido como "O Churassqueiro", 
+                    é conhecido universalmente por suas técnicas 
+                    secretas de tempero e assamento de carne.</p>
+            </div>
+        </section>
+        <section>         
+            <div>
+              <div id="Prêmios">
+              <img src=".\Imagens\premio.png" style="width:10vw; height:15vw; float: left" >
+              <h1>Prêmios:</h1>
+              <p>Nomeado 76 anos seguidos o
+                melhor churrasqueiro da amé
+                rica do sul, ganhador do prêmio
+                nobel de churrasco da paz,
+                oscar de melhor atuação física
+                enquanto assa carne, 
+                entre muitos outros.</p>
+            </div>
+        </section>
+        <section> 
+            <div>
+              <div id="Contato">
+                <img src="Imagens/celular.png" style="width:10vw; height:12vw; float: left">
+                <h1>Contato:</h1>
+                <p>Número celular: 05198765432</p>
+                <p>Número fixo: 05192345678</p>
+                <p>Whatsapp: 05198712345 </p>
+            </div>
+        </section>    
+        <section>
+            <div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h5>VULGO ÉRIQUE JACKA© 2021 INFO 62 A</h5>
+    </footer>
+</body>
+<script>
+    let nav=document.querySelector("nav");
+    let icon=document.querySelector("#icon-menu");
+    nav.style.display="none";
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"
+    }
+</script>
+</html>
